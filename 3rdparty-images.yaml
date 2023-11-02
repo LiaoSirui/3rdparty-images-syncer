@@ -1,0 +1,220 @@
+registry.k8s.io:
+  ingress-nginx/controller:
+    - v1.8.0
+    - v1.9.1
+  ingress-nginx/kube-webhook-certgen:
+    - v20230407
+  kube-state-metrics/kube-state-metrics:
+    - v2.10.0
+  metrics-server/metrics-server:
+    - v0.6.4
+  prometheus-adapter/prometheus-adapter:
+    - v0.11.0
+  kube-apiserver:
+    - v1.27.2
+ghcr.io:
+  dexidp/dex:
+    - v2.36.0
+  stakater/reloader:
+    - v1.0.27
+  fatedier/frpc:
+    - v0.51.0
+  fatedier/frps:
+    - v0.51.0
+  open-telemetry/opentelemetry-operator/opentelemetry-operator:
+    - v0.85.0
+quay.io:
+  openshift/origin-console:
+    - 4.14.0
+  jetstack/cert-manager-cainjector:
+    - v1.12.2
+  jetstack/cert-manager-controller:
+    - v1.12.2
+  jetstack/cert-manager-webhook:
+    - v1.12.2
+  minio/minio:
+    - RELEASE.2023-07-18T17-49-40Z
+  prometheus/statsd-exporter:
+    - v0.22.8
+  prometheus/node-exporter:
+    - v1.6.1
+  kiwigrid/k8s-sidecar:
+    - 1.25.1
+  prometheus-operator/prometheus-config-reloader:
+    - v0.68.0
+  prometheus-operator/prometheus-operator:
+    - v0.68.0
+  prometheus/prometheus:
+    - v2.47.0
+  prometheus/alertmanager:
+    - v0.26.0
+  brancz/kube-rbac-proxy:
+    - v0.14.0
+    - v0.14.2
+  prometheus/blackbox-exporter:
+    - v0.24.0
+  prometheus/pushgateway:
+    - v1.6.0
+  kiali/kiali:
+    - v1.74.0
+  oauth2-proxy/oauth2-proxy:
+    - v7.1.0
+docker.io:
+  openresty/openresty:
+    - 1.21.4.1-7-buster-fat
+    - 1.21.4.2-1-buster-fat
+  docker/dockerfile:
+    - 1.5.2
+  library/node:
+    - 14.21.3
+    - 14.21.3-bullseye
+  library/golang:
+    - 1.19.10
+    - 1.20.2-alpine3.17
+  library/mongo:
+    - 4.0.28
+  library/rabbitmq:
+    - 3.8.34
+  library/redis:
+    - 6.2.13
+    - 7.2-rc2-bullseye
+  library/postgres:
+    - "13.11"
+  library/mysql:
+    - 8.0.33
+  library/python:
+    - 3.8.17-slim-bullseye
+  library/alpine:
+    - "3.17"
+  casbin/casdoor:
+    - v1.366.0
+  dreamacro/clash-premium:
+    - 2023.06.30
+  haishanh/yacd:
+    - v0.3.8
+  coredns/coredns:
+    - 1.10.1
+  alpine/socat:
+    - 1.7.4.4
+  sonatype/nexus3:
+    - 3.58.1
+  labring/cilium:
+    - v1.12.10
+    - v1.11.11
+  labring/helm:
+    - v3.12.0
+  labring/kubernetes:
+    - v1.27.2-4.2.0
+    - v1.24.14-4.2.0
+  labring/nerdctl:
+    - v1.2.1
+  library/nginx:
+    - 1.25.1
+  apache/airflow:
+    - airflow-pgbouncer-2023.02.24-1.16.1
+    - airflow-pgbouncer-exporter-2023.02.21-0.14.0
+    - 2.7.2
+  bitnami/postgresql:
+    - 11.20.0
+  rancher/local-path-provisioner:
+    - v0.0.24
+  library/busybox:
+    - 1.36.1
+    - 1.31.1
+  gitlab/gitlab-ee:
+    - 16.2.3-ee.0
+    - 16.3.4-ee.0
+  istio/pilot:
+    - 1.19.1
+  istio/proxyv2:
+    - 1.18.2
+    - 1.19.1
+  rockylinux/rockylinux:
+    - 9.2.20230513
+  victoriametrics/operator:
+    - v0.38.0
+  victoriametrics/vminsert:
+    - v1.93.4-cluster
+  victoriametrics/vmselect:
+    - v1.93.4-cluster
+  victoriametrics/vmstorage:
+    - v1.93.4-cluster
+  grafana/grafana:
+    - 10.1.1
+  feiyu563/prometheus-alert:
+    - v4.8
+  jupyter/minimal-notebook:
+    - latest
+  kuberay/apiserver:
+    - v1.0.0-rc.0
+  kuberay/operator:
+    - v1.0.0-rc.0
+  rayproject/ray:
+    - 2.7.0
+  istio/examples-bookinfo-productpage-v1:
+    - 1.18.0
+  jaegertracing/jaeger-operator:
+    - 1.47.0
+  library/openjdk:
+    - 17-jdk-buster
+  library/elasticsearch:
+    - 7.17.13
+  library/kibana:
+    - 7.17.13
+  timberio/vector:
+    - 0.33.0-distroless-libc
+  bitnami/kubernetes-event-exporter:
+    - 1.4.0-debian-11-r59
+  jaegertracing/jaeger-es-rollover:
+    - 1.50.0
+    - 1.45.0
+  jaegertracing/jaeger-es-index-cleaner:
+    - 1.9.0
+  jaegertracing/jaeger-query:
+    - 1.45.0
+  jaegertracing/jaeger-collector:
+    - 1.45.0
+  jaegertracing/jaeger-agent:
+    - 1.45.0
+  otel/opentelemetry-collector-contrib:
+    - 0.85.0
+  otel/autoinstrumentation-go:
+    - v0.3.0-alpha
+  otel/autoinstrumentation-java:
+    - 1.30.0
+  otel/autoinstrumentation-nodejs:
+    - 0.41.1
+  otel/autoinstrumentation-python:
+    - 0.41b0
+registry.ci.openshift.org:
+  openshift/release:
+    - rhel-8-release-golang-1.19-openshift-4.14
+  origin/4.14:
+    - base
+gcr.io:
+  distroless/python3-debian11:
+    - latest
+  cadvisor/cadvisor:
+    - v0.47.2
+    - v0.45.0-containerd-cri
+registry.gitlab.com:
+  gitlab-org/gitlab-runner:
+    - alpine-v16.1.0
+  gitlab-org/gitlab-runner/gitlab-runner-helper:
+    - x86_64-b72e108d
+ccr.ccs.tencentyun.com:
+  cube-studio/kubeflow-dashboard:
+    - base-python3.9
+nvcr.io:
+  nvidia/k8s/dcgm-exporter:
+    - 3.2.5-3.1.7-ubuntu20.04
+  nvidia/cloud-native/gpu-operator-validator:
+    - v23.6.1
+  nvidia/cloud-native/k8s-driver-manager:
+    - v0.6.2
+  nvidia/cloud-native/k8s-mig-manager:
+    - v0.5.3-ubuntu20.04
+  nvidia/gpu-feature-discovery:
+    - v0.8.1-ubi8
+  nvidia/gpu-operator:
+    - v23.6.1
